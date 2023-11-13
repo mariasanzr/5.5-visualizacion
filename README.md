@@ -6,6 +6,12 @@
 ![foto principal](images/foto_principal.jpeg)
 
 
+1. [Descripción 🖋️](#desc)
+2. [Objetivos 🔎](#obj)
+3. [Conclusiones ✍🏼](#conc)
+
+<a name="desc"/>
+
 ## Descripción 🖋️
 
 El boom de las plataformas de streaming ha sido uno de los fenómenos más destacados en la industria del entretenimiento en los últimos años. Con el aumento del uso de estas plataformas a raíz de la pandemia de COVID-19, se ha vuelto aún más interesante analizar los datos que se generan en estas plataformas.
@@ -37,6 +43,7 @@ Para conseguir datos sobre esto, me he descargado un archivo CSV de Kaggle que c
 - **Interaction_Events**: Número de interacciones durante la sesión del usuario (por ejemplo: clicks, me gusta, etc.).
 </details> 
 
+<a name="obj"/>
 
 ## Objetivos 🔎
 
@@ -48,7 +55,12 @@ Para esto es importante hacer recuento del número de usuarios registrados en la
 
 En este caso, la muestra cuenta con 6.214 datos (personas) distribuidos en 243 países. 
 
+<details>
+ <summary>Gráfica</summary>
+
 ![country](images/country.png)
+
+</details> 
 
 ### ¿Qué dispositivo es el que más interacciones recibe? 💻
 
@@ -60,7 +72,12 @@ Mi objetivo era averiguar si hay un dispositivo en concreto que recibe más inte
 - Smartphone.
 - Ordenador portátil.
 
+<details>
+ <summary>Gráfica</summary>
+
 ![device](images/device_type.png)
+
+</details> 
 
 ### ¿Cómo se distribuye el tipo de suscripción de los usuarios según su rango de edad (free o premium)? 💰
 
@@ -70,14 +87,25 @@ Quería descubir si hay una suscripción que sea más común entre unas edades u
 - Middle-age: entre 30-50 años. 
 - Senior: entre 50-70 años.
 
+<details>
+ <summary>Gráfica</summary>
+
 ![age_range](images/suscription_age.png)
+
+</details>
 
 ### ¿Cuántos minutos de visionado hay por género del usuario y género del contenido reproducido? 🚺
 
 A través de estos datos quería ver qué géneros son los más populares entre hombres y mujeres y si hay mucha diferencia de minutos de visionado entre ellos. 
 
+<details>
+ <summary>Gráfica</summary>
+
 ![genre_gender](images/genre_gender.png)
 
+</details>
+
+<a name="conc"/>
 
 ## Conclusiones ✍🏼
 
